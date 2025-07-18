@@ -2,6 +2,8 @@ pub const RESET: &str = "\x1b[0m";
 
 pub const BOLD: &str = "\x1b[1m";
 pub const DIM: &str = "\x1b[2m";
+pub const BLINK: &str = "\x1b[5m"; // on Windows Terminal, only works when terminal has window focus. annoying bc im using it on a side monitor, and specifically want to use blinking text to capture my attention for important things
+pub const UNDIM: &str = "\x1b[22m";
 pub const ITALICS: &str = "\x1b[3m";
 pub const UNDERLINE: &str = "\x1b[4m";
 pub const BACKGROUND: &str = "\x1b[7m";
