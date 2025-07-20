@@ -22,7 +22,7 @@ pub const L_BLUE: &str = "\x1b[36m";
 pub const WHITE: &str = "\x1b[37m";
 
 pub const GREY: &str = "\x1b[90m";
-pub const L_PINK: &str = "\x1b[91m";
+pub const L_RED: &str = "\x1b[91m";
 pub const L_GREEN: &str = "\x1b[92m";
 pub const L_YELLOW: &str = "\x1b[93m";
 pub const BLUE: &str = "\x1b[94m";
@@ -41,7 +41,7 @@ pub const BG_L_BLUE: &str = "\x1b[46m";
 pub const BG_WHITE: &str = "\x1b[47m";
 
 pub const BG_GREY: &str = "\x1b[100m";
-pub const BG_L_PINK: &str = "\x1b[101m";
+pub const BG_L_RED: &str = "\x1b[101m";
 pub const BG_L_GREEN: &str = "\x1b[102m";
 pub const BG_L_YELLOW: &str = "\x1b[103m";
 pub const BG_BLUE: &str = "\x1b[104m";
